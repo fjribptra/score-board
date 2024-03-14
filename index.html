@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <title>Score Board</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>
+            <span class="display" id="p1-display">0</span>
+            vs
+            <span class="display" id="p2-display">0</span>
+        </h1>
+        <select name="maxScore" id="maxScore">
+            <option value="=== Max Score ===" selected disabled>=== Max Score ===</option>
+            <option value="3">3</option>
+            <option value="10">10</option>
+        </select>
+        <div class="button-wrapper">
+            <button id="p1-btn" disabled>+1 P1</button>
+            <button id="p2-btn" disabled>+1 P2</button>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
