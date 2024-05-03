@@ -28,7 +28,9 @@ h1 {
 }
 
 .display {
-  background-color: white;
+  background-color: black;
+  color: white;
+  border: 2px solid lightgreen;
   padding: 0.5em 1em;
   border-radius: 10px;
   -webkit-border-radius: 10px;
