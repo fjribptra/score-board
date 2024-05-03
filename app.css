@@ -47,6 +47,8 @@ select {
 }
 
 button {
+  background: black;
+  color: white;
   padding: 0.4em 0.5em;
   border: none;
   cursor: pointer;
